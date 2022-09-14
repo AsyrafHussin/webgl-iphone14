@@ -30,7 +30,7 @@ export default function PhoneCanvas() {
         </Stage>
       </Suspense>
       <CameraHelper />
-      <OrbitControls autoRotate autoRotateSpeed={1.2} minDistance={0.3} />
+      <OrbitControls autoRotate autoRotateSpeed={1} minDistance={0.3} />
     </Canvas>
   );
 }
