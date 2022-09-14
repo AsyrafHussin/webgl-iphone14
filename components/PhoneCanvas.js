@@ -1,8 +1,9 @@
 import { Suspense } from "react";
 import { Canvas, useThree } from "@react-three/fiber";
-import { Phone } from "./Phone";
 import { PerspectiveCamera } from "three";
 import { OrbitControls, Stage } from "@react-three/drei";
+import Loader from "./Loader";
+import { Phone } from "./Phone";
 
 function Controls() {
   const {
@@ -25,7 +26,7 @@ function CameraHelper() {
 export default function PhoneCanvas() {
   return (
     <Canvas shadows dpr={[1, 2]} camera={{ position: [0, 0, 2] }}>
-      <Suspense fallback={null}>
+      <Suspense fallback={<Loader />}>
         <Stage
           contactShadow
           shadows
