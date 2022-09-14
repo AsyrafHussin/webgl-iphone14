@@ -22,7 +22,7 @@ npm run dev
 
 ## Credits
 
-[Ankit Avatar Rigged with expression Shape KeyiPhone 14 Pro Max](https://skfb.ly/oxKHu) by akshatmittal is licensed under [Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/).
+[iPhone 14 Pro Max](https://skfb.ly/oxKHu) by akshatmittal is licensed under [Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/).
 
 ## License
 
