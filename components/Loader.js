@@ -4,7 +4,8 @@ export default function Loader() {
   const { progress } = useProgress();
   return (
     <Html center>
-      <p>{Number(progress).toFixed(2)}% loaded</p>
+      <p>Please wait</p>
+      <p>{Number(progress).toFixed(2)}% loaded...</p>
     </Html>
   );
 }
