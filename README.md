@@ -1,4 +1,4 @@
-# 3D Iphone 14 Pro Max
+# 3D iPhone 14 Pro Max
 
 ## Getting Started
 
